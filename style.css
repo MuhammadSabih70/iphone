@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none
+    ;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 40px;
+    cursor:pointer ;
+    justify-content:space-between;
+}
+
+.Sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+
+.Sub-nav span{
+    color: rgb(192, 192, 240);
+}
+
+.hero{
+    background-color: rgb(100, 98, 87);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hero h1{
+    margin-bottom: 30px;
+}
+
+.link{
+    margin-top: 12px;
+}
+
+.link a{
+    margin: 10px;
+}
+
+.Second{
+    background-color: rgb(129, 112, 112);
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 40px;
+} 
+
+.Second h1{
+    margin-bottom: 6px;
+}
+
+.Second h5{
+    margin-bottom: 15px;
+}
+
+.Second img{
+    width: 700;
+}
+
+.main{
+    display: flex;
+    margin: 0px;
+}
+
+.box{
+    width: 50%;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.box2{
+    width: 50%;
+    height: 110%;
+    background-color: rgb(78, 78, 78);
+    padding-top: 16px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+.Outer{
+    display: flex;
+}
+ 
+.box3{
+    width: 50%;
+    height: 150%;
+    background-color: rgb(78, 78, 78);
+    padding-top: 16px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+button{
+    background-color: rgb(113, 209, 209);
+    cursor: pointer;
+    width: 100px;
+    
+}
